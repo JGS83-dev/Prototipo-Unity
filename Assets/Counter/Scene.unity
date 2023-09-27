@@ -495,6 +495,7 @@ MonoBehaviour:
   - {fileID: 3907116042837148361, guid: 465d13080c0be824886b2475eb467faa, type: 3}
   - {fileID: 8911526751134104399, guid: 8734feee7c1456943b0fc75a20d6ffe9, type: 3}
   puntoSpawn: {fileID: 394246626}
+  btnLanzar: {fileID: 1908276355}
 --- !u!1 &574399846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,7 +1514,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1908276356}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 394246628}
+        m_TargetAssemblyTypeName: Lanzamiento, Assembly-CSharp
+        m_MethodName: GenerarDoro
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1908276356
 MonoBehaviour:
   m_ObjectHideFlags: 0
