@@ -18,7 +18,7 @@ public class Counter : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Count += 1;
-        CounterText.text = "Count : " + Count;
+        CounterText.text = "Dororo puntos : " + Count;
         Destroy(other.gameObject);
     }
 }
