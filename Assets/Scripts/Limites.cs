@@ -15,7 +15,6 @@ public class Limites : MonoBehaviour
     {
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.AddForce(Random.Range(-30,-20), Random.Range(5, 15), 0, ForceMode.Impulse);
-        AutoDestruccion();
     }
 
     // Update is called once per frame
@@ -35,6 +34,7 @@ public class Limites : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        AutoDestruccion();
     }
 
     IEnumerator AutoDestruccion()
