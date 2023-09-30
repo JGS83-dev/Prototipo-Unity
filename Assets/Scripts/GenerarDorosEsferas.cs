@@ -20,7 +20,10 @@ public class GenerarDorosEsferas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        EsperaGenerar();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GenerarDoro();
+        }
     }
 
     public void GenerarDoro()
@@ -30,12 +33,6 @@ public class GenerarDorosEsferas : MonoBehaviour
         Debug.Log(indice);
         Debug.Log(indiceEsferas);
         Instantiate(doroEsferas[indice], spawnsDoroEsferas[indiceEsferas]);
-    }
-
-    IEnumerator EsperaGenerar()
-    {
-        yield return new WaitForSeconds(5);
-        GenerarDoro();
     }
 
     private void AgregarEventos(Button btn, EventTriggerType tipo)
