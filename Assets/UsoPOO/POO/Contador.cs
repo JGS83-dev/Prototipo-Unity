@@ -6,8 +6,8 @@ using UnityEngine;
 public class Contador : MonoBehaviour
 {
     public static int contador = 0;
-
-    TextMeshProUGUI textMeshProUGUI;
+    [SerializeField]
+    TextMeshPro textMeshProUGUI;
     // Start is called before the first frame update
     void Start()
     {
