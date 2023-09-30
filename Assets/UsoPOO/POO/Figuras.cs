@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Figuras : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    protected Vector3 fuerzaInicial = Vector3.zero;
+    protected Rigidbody rb = null;
+    [SerializeField]
+    protected Transform spawn = null;
+    [SerializeField]
+    protected List<Material> materials = new List<Material>();
 
-    // Update is called once per frame
-    void Update()
+    public virtual void OnCollisionEnter(Collision collision)
     {
-        
+        Destroy(gameObject);
     }
 }
