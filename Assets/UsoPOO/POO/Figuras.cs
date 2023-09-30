@@ -8,8 +8,6 @@ public class Figuras : MonoBehaviour
     protected Vector3 fuerzaInicial = Vector3.zero;
     protected Rigidbody rb = null;
     [SerializeField]
-    protected Transform spawn = null;
-    [SerializeField]
     protected List<Material> materials = new List<Material>();
 
     public virtual void OnCollisionEnter(Collision collision)
