@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6920128470097827551}
   m_Layer: 0
   m_Name: DoroEsfera
-  m_TagString: Untagged
+  m_TagString: Figura
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

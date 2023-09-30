@@ -12,18 +12,20 @@ public class Esfera : Figuras
         this.rb = GetComponent<Rigidbody>();
         int randomMaterial = Random.Range(0, this.materials.Count);
         GetComponent<MeshRenderer>().material = materials[randomMaterial];
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-
+        //Le agregamos movimiento inicial
+        this.fuerzaInicial = new Vector3(Random.Range(10.0f, 15.0f), 0, Random.Range(10.0f, 12.0f));
+        this.rb.AddForce(this.fuerzaInicial, ForceMode.Impulse);
     }
 
     //«POLYMORPHISM»
     public override void OnCollisionEnter(Collision collisionInfo)
     {
-        this.fuerzaInicial = new Vector3(Random.Range(0.0f,2.0f), 0, Random.Range(0.0f, 4.0f));
-        this.rb.AddForce(this.fuerzaInicial);
+        if(collisionInfo.gameObject.tag == "Figura")
+        {
+            this.fuerzaInicial = new Vector3(Random.Range(10.0f, 20.0f), 0, Random.Range(15.0f, 25.0f));
+            this.rb.AddForce(this.fuerzaInicial, ForceMode.Impulse);
+            Debug.Log("Colision con otra figura");
+        }
     }
 }
