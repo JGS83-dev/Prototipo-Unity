@@ -154,6 +154,128 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &153937149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5949636
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8037526
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -106.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586875577722354508, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_Name
+      value: DoroCilindro (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839409445445320873, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+--- !u!1001 &305299581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586875577722354508, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_Name
+      value: DoroCilindro (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839409445445320873, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
 --- !u!1 &516689817
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +427,58 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96389614a3366c64e895b8f6c513a354, type: 3}
+--- !u!1 &878150592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 878150593}
+  - component: {fileID: 878150594}
+  m_Layer: 0
+  m_Name: Controlador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &878150593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878150592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &878150594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878150592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df9b87d95cc186468c62b7bd84d27f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doroEsferas:
+  - {fileID: 3659833276317916930, guid: ea956b16af2a0084f85ea06111e4497f, type: 3}
+  spawnsDoroEsferas:
+  - {fileID: 1691305906}
+  - {fileID: 1153223782}
+  - {fileID: 1693699686}
+  - {fileID: 140904431}
+  btnLanzar: {fileID: 0}
 --- !u!1 &1153223781
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +827,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1761347219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5949636
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8037526
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -106.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586875577722354508, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_Name
+      value: DoroCilindro (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839409445445320873, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
 --- !u!1001 &1764161640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -767,6 +1002,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96389614a3366c64e895b8f6c513a354, type: 3}
+--- !u!1001 &4406151681703044540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 892955286716458415, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586875577722354508, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
+      propertyPath: m_Name
+      value: DoroCilindro
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c450b41964b9a5a4890ccf6940de7795, type: 3}
 --- !u!1001 &4445400956063602692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -840,3 +1132,8 @@ SceneRoots:
   - {fileID: 1153223782}
   - {fileID: 1693699686}
   - {fileID: 140904431}
+  - {fileID: 878150593}
+  - {fileID: 4406151681703044540}
+  - {fileID: 305299581}
+  - {fileID: 1761347219}
+  - {fileID: 153937149}

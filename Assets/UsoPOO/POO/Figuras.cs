@@ -12,6 +12,13 @@ public class Figuras : MonoBehaviour
 
     public virtual void OnCollisionEnter(Collision collision)
     {
-        Destroy(gameObject);
+        Contador.contador += 1;
+    }
+
+    protected void Awake()
+    {
+        this.rb = GetComponent<Rigidbody>();
+        int randomMaterial = Random.Range(0, this.materials.Count);
+        GetComponent<MeshRenderer>().material = materials[randomMaterial];
     }
 }

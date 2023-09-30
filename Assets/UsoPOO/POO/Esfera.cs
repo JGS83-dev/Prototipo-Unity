@@ -9,10 +9,6 @@ public class Esfera : Figuras
     // Start is called before the first frame update
     void Start()
     {
-        this.rb = GetComponent<Rigidbody>();
-        int randomMaterial = Random.Range(0, this.materials.Count);
-        GetComponent<MeshRenderer>().material = materials[randomMaterial];
-
         //Le agregamos movimiento inicial
         this.fuerzaInicial = new Vector3(Random.Range(10.0f, 15.0f), 0, Random.Range(10.0f, 12.0f));
         this.rb.AddForce(this.fuerzaInicial, ForceMode.Impulse);
@@ -21,11 +17,9 @@ public class Esfera : Figuras
     //«POLYMORPHISM»
     public override void OnCollisionEnter(Collision collisionInfo)
     {
-        if(collisionInfo.gameObject.tag == "Figura")
+        if(collisionInfo.gameObject.tag == "Cilindro")
         {
-            this.fuerzaInicial = new Vector3(Random.Range(10.0f, 20.0f), 0, Random.Range(15.0f, 25.0f));
-            this.rb.AddForce(this.fuerzaInicial, ForceMode.Impulse);
-            Debug.Log("Colision con otra figura");
+            Destroy(gameObject);
         }
     }
 }
