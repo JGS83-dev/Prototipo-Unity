@@ -17,7 +17,7 @@ public class Esfera : Figuras
     //«POLYMORPHISM»
     public override void OnCollisionEnter(Collision collisionInfo)
     {
-        if(collisionInfo.gameObject.tag == "Cilindro")
+        if(collisionInfo.gameObject.tag == "Cilindro" || collisionInfo.gameObject.tag == "Pared")
         {
             Destroy(gameObject);
         }

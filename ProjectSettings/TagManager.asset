@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Esfera
   - Cilindro
+  - Pared
   layers:
   - Default
   - TransparentFX

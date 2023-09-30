@@ -30,8 +30,6 @@ public class GenerarDorosEsferas : MonoBehaviour
     {
         int indice = Random.Range(0, doroEsferas.Length);
         int indiceEsferas = Random.Range(0, spawnsDoroEsferas.Count);
-        Debug.Log(indice);
-        Debug.Log(indiceEsferas);
         Instantiate(doroEsferas[indice], spawnsDoroEsferas[indiceEsferas]);
     }
 
